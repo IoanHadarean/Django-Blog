@@ -125,6 +125,15 @@ a, a:hover {
     font-weight: bold;
 }
 
+.lead,
+.main-title,
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* ------------------------------------ Media Queries ----------------------- */
 
 @media screen and (min-width: 768px) {
